@@ -1,0 +1,103 @@
+project : 
+	
+	eclips : project 
+		java Project 
+		dynamic web project 
+		1.10 :
+			
+			1.15 : 
+		
+	project : 
+		maven :  :
+			jdbc :
+			Servelt 
+			jsp 
+				
+				1) autimaticlly it will download from  Repotry :
+				2) automatically t migrate :
+				3) very uch easy to dev to app : 
+				
+
+				
+				downalod 
+				mvn test : it will test our application all the functionlaty wether it is corret or not , stntatical wise 
+				mvn compile  : complier 
+				mvn run  : run 
+				mvn build  :  compress : 
+					1 GB : 
+						 compres : 
+							build : 
+								200MB 
+				mnv 
+		sptinhStatterProject 
+		
+
+
+
+		git : 
+			git init 
+			gt add 
+			gt comm
+			git push
+
+
+
+				vsCode :  
+				Git GUI : 
+				
+
+Java :
+
+
+
+		java jdbc Servelt , jsp 
+	
+		Freamwork  
+			spring 
+				hibernate 
+				jpa 
+				cloud 
+				mvc
+				spring bTACH 
+			SPring Secutriy 
+	
+
+
+		Maven Project : 
+
+	JDBC  			------ > HIbernate ()------------JPA 	
+
+	50 % 				30 %		20 % 
+	Java 
+
+	DB (we use create )		DB (we use create )
+		
+
+
+	HTML 
+	CSS
+	JS :
+			PostMan 
+
+	Java 
+
+
+
+	Data Bse
+		MY 
+		H2 		
+
+
+
+	1000 : 
+		lot time 
+			 mvn clean
+			mvn install : it will downalod all the dependncy from maven repo 
+			mvn Compile 
+			mvn test 	
+			mvn build 
+
+
+
+		STS: 
+			

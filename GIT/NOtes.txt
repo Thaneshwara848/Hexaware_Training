@@ -1,0 +1,16 @@
+git init : 
+git add . :
+git commit : 
+git push :
+git pulll
+git branch 
+git checkout 
+git checkout -b P1 (creatig the branch)
+git checkout -d P1 deletig the branch)
+git log
+git status 
+git clone 
+git fetch 
+git amend 
+
+

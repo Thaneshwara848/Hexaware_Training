@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function MyDatastore(){
+          var  fn= document.getElementById('fname').value;
+         var   ln=document.getElementById('lname').value;
+           localStorage.setItem("firstname",fn);
+           localStorage.setItem("lastname", ln); 
+        }
+        function MyDataDelete(){
+            localStorage.removeItem(firstname);
+            localStorage.removeItem(lastname);
+            alert("DataRemoved ...!")
+        }
+        function MyDataDisplay(){
+            fn=localStorage.getItem(firstname);
+            ln=localStorage.getItem(lastname);
+            document.getElementById('disp').innerHTML=localStorage.getItem(firstname)
+        }
+    </script>
+</head>
+<body>
+    <form>
+        First name :<input type="text" id="fname"><br>
+        Last Name :<input type="text" id="lname"><br>
+
+        <input type="button" value="Save" onclick="MyDatastore()">
+        <input type="button" value="display" onclick="MyDataDisplay()">
+        <input type="button" value="Delete" onclick="MyDataDelete()">
+    
+        <input type="reset" value="RESET">
+    </form>
+    <div>
+        <span id="disp"></span>
+    </div>
+</body>
+
+</html>
