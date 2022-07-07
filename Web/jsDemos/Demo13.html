@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function vald(){
+            var name =document.getElementById('uname').value;
+            if( name.length==0 || name.length==undefined || name.length==null)
+            {
+                    // console.log("Name must be reqried ....!")
+                    document.getElementById('errMsg').innerText="Name must be requried ....!"
+            }
+            else if (name.length>0 && name.length<=2)
+            {
+                document.getElementById('errMsg').innerText="Name must be min 3 char  ....!"
+            }
+            else{
+                document.getElementById('errMsg').innerText=" "
+                document.getElementById('sucMsg').innerText="Succcess...!"
+                //console.log(" success ...!")
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+        USER Name : <br>
+        <input type="text" id="uname" name="uname"> <br>
+        <span id="errMsg" style="color: red"></span><br>
+        <span id="sucMsg" style="color: green"></span><br>
+        <input type="submit" value="Login" onclick="vald()">
+
+    
+</body>
+
+</html>

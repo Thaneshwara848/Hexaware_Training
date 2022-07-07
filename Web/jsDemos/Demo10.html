@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        function cal(val) {
+
+                console.log(val)
+            var num1 = document.getElementById('n1').value;
+            var num2 = document.getElementById('n2').value;
+            if(val=="+")
+            {
+                var result = parseInt(num1)+  parseInt(num2);
+            document.getElementById('result').value = result;
+            }
+            if(val=="-")
+            {
+                var result = parseInt(num1) -  parseInt(num2);
+            document.getElementById('result').value = result;
+            }
+            
+            if(val=="*")
+            {
+                var result = parseInt(num1)*  parseInt(num2);
+            document.getElementById('result').value = result;
+            }
+            
+            if(val=="/")
+            {
+                var result = parseInt(num1) /  parseInt(num2);
+            document.getElementById('result').value = result;
+            }
+            
+        }
+
+      
+    </script>
+
+</head>
+
+<body>
+
+    ENter A :<input type="text" id="n1"><br>
+    Enter B :<input type="text" id="n2"><br>
+    Result :<input type="text" id="result"><br>
+
+    <input type="submit" value="Add" onclick="cal('+')">
+    <input type="submit" value="sub" onclick="cal('-')">
+    <input type="submit" value="mul" onclick="cal('*')">
+    <input type="submit" value="div" onclick="cal('/')">
+
+</body>
+
+</html>

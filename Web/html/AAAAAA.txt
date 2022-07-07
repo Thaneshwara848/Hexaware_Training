@@ -21,3 +21,36 @@ Types of Seleter
     h1 , p , a  , *{ }
 5) grouping 
         h1,h2,p ,a === > h1,p{ style }
+
+
+
+Seleter
+types of css
+colors
+backgroud
+margin 
+padding
+overflow
+box model 
+text 
+font 
+table 
+media quesries 
+showades 
+border 
+gird: FLux Box 
+icons 
+
+
+
+Bootstracp :
+    grid 
+    coursole 
+    model 
+    bitton 
+    inputs 
+    icons 
+
+    pure it only design the web page :  
+
+

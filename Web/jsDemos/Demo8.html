@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+            var s1=parseInt( document.getElementById('s1').value);
+            var s2= parseInt(document.getElementById('s2').value);
+            var s3=parseInt(document.getElementById('s3').value);
+            var s4= parseInt(document.getElementById('s4').value);
+            var s5=parseInt(document.getElementById('s5').value);
+            var s6= parseInt(document.getElementById('s6').value);
+            
+            var tot=((s1+s2+s3+s4+s5+s6)/6)
+            console.log("Total :"+tot)
+        }
+    </script>
+</head>
+
+
+<body>
+    SUB1 :<input type="text" id="s1"><br>
+    SUB2 :<input type="text" id="s2"><br>
+    SUB3 :<input type="text" id="s3"><br>
+    SUB4 :<input type="text" id="s4"><br>
+    SUB5 :<input type="text" id="s5"><br>
+    SUB6 :<input type="text" id="s6"><br>
+
+    <input type="submit" value="LOgin" onclick="abc()">
+    <input type="reset" value="RESET">  
+
+
+
+             
+</body>
+</html>

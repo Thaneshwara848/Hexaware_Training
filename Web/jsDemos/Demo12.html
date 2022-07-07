@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function calage(){
+
+            var age =document.getElementById('uage').value;
+            if(age > 18  )
+            {
+                    document.write("Correct age for Vote ...!")
+            }
+            else{
+                alert("please check the once again ..!")
+               mynewage=prompt("Enter the Vlaid Age : ")
+               var res=confirm("are you want to close this window   ? ")
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+  Age :  <input type="text" name="uage" id="uage"><input type="submit" value="Click " onclick="calage()"> 
+    
+</body>
+</html>
