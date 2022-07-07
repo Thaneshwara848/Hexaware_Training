@@ -1,0 +1,23 @@
+types styel Sheet :
+
+    1) Inline :
+            tag level : 
+    2) Internal 
+        style tag
+    3) externaml 
+        .css 
+        link 
+
+
+Types of Seleter
+
+1) tag 
+    h1 , h2, h3 p , a , 
+2) class 
+     class="abc"  uing . {}
+3) id 
+    id="xyz" #{ }
+4) universl 
+    h1 , p , a  , *{ }
+5) grouping 
+        h1,h2,p ,a === > h1,p{ style }

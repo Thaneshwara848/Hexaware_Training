@@ -1,0 +1,21 @@
+UI design and Ui Develiopemt 
+
+html 			JS ===> ANgualr.js / React.js 
+css
+Bootsterp 
+
+
+
+MW :
+	java
+
+BE: 
+	database 
+
+
+
+			1 ) create attractive web pages :
+					10 pages 
+
+			2)  add in servelt :
+				 stroed to db with using good web page 
